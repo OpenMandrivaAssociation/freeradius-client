@@ -105,3 +105,21 @@ rm -rf %{buildroot}
 %attr(0644,root,root) %{_libdir}/*.*a
 %attr(0755,root,root) %{_libdir}/*.so
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 1.1.6-3mdv2011.0
++ Revision: 618344
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 1.1.6-2mdv2010.0
++ Revision: 428919
+- rebuild
+
+* Tue Aug 05 2008 Oden Eriksson <oeriksson@mandriva.com> 1.1.6-1mdv2009.0
++ Revision: 263991
+- import freeradius-client
+
+
+* Tue Aug 05 2008 Oden Eriksson <oeriksson@mandriva.com> 1.1.6-1mdv2009.0
+- initial Mandriva package
