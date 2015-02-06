@@ -5,7 +5,7 @@
 Summary:	FreeRADIUS Client Software
 Name:		freeradius-client
 Version:	1.1.6
-Release:	%mkrel 3
+Release:	4
 License:	BSD-like
 Group:		System/Servers
 URL:		http://www.freeradius.org/
