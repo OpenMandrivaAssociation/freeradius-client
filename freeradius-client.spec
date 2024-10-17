@@ -8,7 +8,7 @@ Version:	1.1.6
 Release:	4
 License:	BSD-like
 Group:		System/Servers
-URL:		http://www.freeradius.org/
+URL:		https://www.freeradius.org/
 Source0:	ftp://ftp.freeradius.org/pub/radius/%{name}-%{version}.tar.gz
 Source1:	ftp://ftp.freeradius.org/pub/radius/%{name}-%{version}.tar.gz.sig
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
