@@ -13,6 +13,11 @@ Source0:	ftp://ftp.freeradius.org/pub/radius/%{name}-%{version}.tar.gz
 Source1:	ftp://ftp.freeradius.org/pub/radius/%{name}-%{version}.tar.gz.sig
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 FreeRADIUS Client is a framework and library for writing RADIUS Clients which
 additionally includes radlogin, a flexible RADIUS aware login replacement, a
